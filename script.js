@@ -41,8 +41,7 @@ function instrumentCards(instrumentCategory) {
     });
   }
 
-  return instruments
-    .map(function(item) {
+  return instruments.map(function(item) {
       return `
         <div class="card">
           <h2>${item.instrument}</h2>
